@@ -1,0 +1,175 @@
+img {
+  width: 100%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.clr {
+  clear: both;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Alegreya", serif;
+  font-weight: 400;
+}
+
+body p,
+ul {
+  font-family: "Alegreya Sans", sans-serif;
+  color: #373a3c;
+  line-height: 1.86em;
+}
+
+.home {
+  height: 800px;
+  background-image: url(../img/back_ground.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+}
+.text_home {
+  margin: 250px;
+  color: #fff;
+  line-height: 1.6;
+}
+.text_home h1 {
+  font-size: 76px;
+}
+.text_home p {
+  font-family: "Alegreya Sans", sans-serif;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.851);
+}
+
+.btn {
+  font-weight: bold;
+  padding: 18px 26px;
+  margin: 30px 5px;
+  color: #fff;
+  background-color: #8e7754;
+  border: #8e7754 solid 2px;
+  cursor: pointer;
+}
+.btn2 {
+  background-color: transparent;
+  border: #fff solid 2px;
+}
+
+.parent {
+  width: 85%;
+  margin: auto;
+  padding: 60px 0;
+}
+.item h2,
+h2 {
+  font-weight: lighter;
+  font-size: 32px;
+  padding-top: 36px;
+}
+h4 {
+  color: rgba(0, 0, 0, 0.853);
+  font-weight: lighter;
+  font-size: 22px;
+  padding-top: 14px;
+}
+.item p,
+.item1 p,
+.footer p {
+  /* line-height: 1.6; */
+  /* font-weight: lighter; */
+  font-size: 17px;
+  padding: 20px 0;
+  color: #888;
+}
+.footer p {
+  color: rgba(255, 255, 255, 0.521);
+}
+.header {
+  padding-top: 40px;
+  text-align: center;
+  line-height: 1;
+}
+.header p {
+  margin-top: 17px;
+  color: #888;
+}
+.item1 {
+  width: 33.333%;
+  float: left;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.item {
+  width: 50%;
+  float: left;
+  padding: 38px 38px;
+  line-height: 1.6;
+}
+.ul {
+  line-height: 3;
+  font-size: larger;
+  color: rgba(0, 0, 0, 0.438);
+  padding-left: 30px;
+}
+.parent2 .container2 .item0 {
+  padding-top: 90px;
+}
+.parent2 {
+  background-color: #f8f8f8;
+}
+.container2,
+.last_container {
+  width: 85%;
+  margin: auto;
+  padding: 40px 0;
+}
+.container3 .item1 p {
+  color: rgba(0, 0, 0, 0.708);
+}
+.container3 {
+  width: 85%;
+  margin: auto;
+}
+.loc {
+  width: 85%;
+  margin: auto;
+}
+.last {
+  background-color: #403d38;
+}
+.end {
+  background-color: #353330;
+}
+
+.footer {
+  width: 25%;
+  padding: 20px 30px;
+  float: left;
+  color: #fff;
+}
+.footer h4 {
+  color: #fff;
+  padding: 20px 0;
+  font-size: 16px;
+}
+.footer .ul1,
+.end p {
+  color: rgba(255, 255, 255, 0.673);
+  font-size: 14px;
+}
+.text_end {
+  text-align: center;
+  color: #fff;
+  padding: 35px 0;
+}
+.end .text_end h2 {
+  font-size: 74px;
+  padding-bottom: 20px;
+}
